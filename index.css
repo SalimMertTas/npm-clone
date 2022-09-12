@@ -312,6 +312,7 @@ margin-left: auto;
 margin-right: auto;
 line-height: 1.5;
 text-align: center;
+margin-bottom: 4rem;
 }
 
 .from .from-subtitle h2{
@@ -323,17 +324,85 @@ max-width: 30rem;
 }
 
 .footer{
-
+display: flex;
+justify-content: space-around;
+text-align: left;
+margin-top: 40px;
+letter-spacing: 1px;
 }
 
 .footer .logo-link{
-
+padding: 2rem;
+padding-top: 1rem;
 }
 
 .footer .logo-link .logo-npm{
-
+width: 50px;
+padding-top: 1rem;
 }
 
 .footer .logo-link .logo-github{
-    
+width: 50px;
+padding-top: 1rem;
+
 }
+
+.footer .support{
+    width: 30%;
+}
+
+.footer .company{
+    width: 30%;
+
+}
+
+.footer .terms-policies{
+    width: 30%;
+
+}
+
+.footer .support ul{
+    list-style-type: none;
+    line-height: 2.5rem;
+}
+
+.footer .company ul{
+    list-style-type: none;
+    line-height: 2.5rem;
+
+}
+ .footer .terms-policies ul{
+    list-style-type: none;
+    line-height: 2.5rem;
+
+ }
+
+ .footer .support p{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    padding-left: 35px;
+
+ }
+ 
+ .footer .company p{
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+    padding-left: 35px;
+
+ }
+ 
+ .footer .terms-policies p{
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+    padding-left: 35px;
+ }
+
+ .bottom{
+    background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
+    width: 100%;
+    height: 10px;
+ }
